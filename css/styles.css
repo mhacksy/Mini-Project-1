@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(211, 211, 211);
+}
+/* nav section */
+
+nav{
+    background-color: rgb(245, 102, 19);
+}
+
+.navbar-brand{
+    color: rgb(255, 255, 255);
+}  
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+
+.menu-icon{
+    width: 30px;
+}
+
+#logo{
+    height: 40px;
+}
+
+/* header section */
+
+#carousel-section{
+    background-color:  rgb(255, 255, 255);
+}
+
+.carousel-inner{
+    padding: 20px 20px;
+}
+
+.carousel-item{
+    width :100%;
+    height: 500px;
+}
+
+.display-1{
+    font-family: cursive;
+    color: rgb(245, 102, 19);
+    font-weight: 700;
+    font-size: 120px;
+    text-shadow: 10px 10px 10px  rgb(116, 57, 24);
+}
+
+.carousel-offers{
+    color:  rgb(245, 102, 19);
+    padding: 20px 100px;
+    text-shadow:  1px 1px 2px  rgb(7, 7, 7);
+}
+
+/* sign up form */
+
+form{
+    text-align: center;
+}
+
+#first_name{
+    width: 40%;
+    margin: 10px;
+}
+
+#last_name{
+    width: 40%;
+    margin: 10px;
+}
+
+#email{
+    width: 85%;
+}
+
+#password{
+    width: 85%;
+    margin: 10px;
+}
+
+#number{
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+#birthday{
+    width: 85%;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}
+
+#birthmonth{
+    width: 33%;
+}
+
+#birthdate{
+    width: 31%;
+}
+
+#birthyear{ width: 33%;
+}
+
+.form-radio{
+    border: 1px solid black;
+    padding: 0px 10px 0px 10px;
+    margin-top: 0px;
+}
+
+.radio-label{
+    margin: 0px 37px 0px 0px;
+}
+
+#submit{
+    color: white;
+    background-color: rgb(245, 102, 19);;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+    border: none;
+}
+
+/* body section */
+
+#jersey-caption{
+    font-family: cursive;
+    color:  rgb(245, 102, 19);
+    font-size: 70px;
+    text-shadow: 5px 5px 5px  rgb(116, 57, 24);
+    padding-top: 50px;
+}
+
+#shirt-caption{
+    font-family: cursive;
+    color:  rgb(245, 102, 19);
+    font-size: 70px;
+    text-shadow: 5px 5px 5px  rgb(116, 57, 24);
+    padding-top: 50px;
+}
+
+.card{
+    color: rgb(245, 102, 19);
+    
+}
+
+.card-img-top{
+    height: 420px;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(83, 82, 82);
+}
+
+.footer-list{
+    margin-top: 200px;
+    text-align: center;
+    color:rgb(199, 199, 199);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer-icon{
+    height: 30px;
+}

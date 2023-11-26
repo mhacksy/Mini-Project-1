@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(211, 211, 211);
+}
+/* nav section */
+
+nav{
+    background-color: rgb(245, 102, 19);
+}
+
+.navbar-brand{
+    color: rgb(255, 255, 255);
+}  
+
+.nav-link{
+    color: rgb(255, 255, 255);
+}
+
+.menu-icon{
+    width: 30px;
+}
+
+#logo{
+    height: 40px;
+}
+
+/* Shop content */
+
+.container{
+    background-color: rgb(247, 201, 175);
+}
+
+#jersey-header{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+#shirt-header{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+.card{
+    color: rgb(245, 102, 19);
+}
+
+.card-img-top{
+    width: 100%;
+    height: 350px;
+}
+
+.btn{
+    color: white;
+    background-color:  rgb(245, 102, 19);
+}
+
+.back-to-top{
+    text-align: center;
+    color:  rgb(245, 102, 19);
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+h4{
+    padding-top:40px;
+    padding-bottom: 50px;
+}
+
+
+/* footer */
+
+footer{
+    background-color: rgb(83, 82, 82);
+}
+
+.footer-list{
+    margin-top: 200px;
+    color:rgb(199, 199, 199);
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer-icon{
+    height: 30px;
+}

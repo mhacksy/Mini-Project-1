@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="css/styles_shop.css">
+        <link rel="icon" type="image/x-icon" href="img/favicon.jpg">
+        <title>Designik</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3" href="#">
+                    <img src="img/dn_logo.png"  alt="website logo" id="logo"/>
+                    Designik
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#site_navbar">
+                    <img class="menu-icon" src="img/menu_icon.png" alt="menu icon">
+                </button>
+                <div class="collapse navbar-collapse" id="site_navbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a 
+                              class="nav-link dropdown-toggle"  
+                              href="#"
+                              data-bs-toggle="dropdown"
+                              >Categories</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item"href="#jersey-header">Jerseys</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item"href="#shirt-header">Shirts</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item"href="#">Tarpaulines</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item"href="#">Banners</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item"href="#">Invitaion Cards</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input 
+                          class="form-control me-2" 
+                          type="search" 
+                          placeholder="Search">
+                        <button class="btn btn-outline-light" type="submit">
+                            <span class="material-symbols-outlined">search</span>
+                        </button>
+                    </form>
+                    <button class="btn btn-outline-light mx-3" type="submit">
+                        <span class="material-symbols-outlined">shopping_cart</span>
+                        <span class="fs-5">Cart</span>
+                    </button>
+                    <div class="acount dropdown">
+                        <a 
+                          class="nav-link dropdown-toggle"  
+                          href="#"
+                          data-bs-toggle="dropdown"
+                          >Account
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item"href="#jersey-header">Profile</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item"href="#shirt-header">Logout</a>
+                            </li>
+                        </ul>
+                    </div>           
+                </div>
+            </div>
+        </nav>
+        <div class="container my-5">
+            <h1 id="jersey-header">Jerseys</h1>
+            <div class="row text-center my-3">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey1.jpg" 
+                            alt="black-green-white jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>S-Merge</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey2.jpg" 
+                            alt="black-gold jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Don-S</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey3.jpg" 
+                            alt="black-red jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Hashtag</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey4.jpg" 
+                            alt="black-purple jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>D'Keepers</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center my-3">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey6.jpg" 
+                            alt="black-white jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Jazz</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey7.jpg" 
+                            alt="black-red jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Iraya</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey8.jpg" 
+                            alt="black-green-white jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>River</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey9.jpg" 
+                            alt="blue-purple jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Mary</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center my-3">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey13.jpg" 
+                            alt="black-white jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Dudes</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey10.jpg" 
+                            alt="black-red jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Spartans</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey11.jpg" 
+                            alt="black-green-white jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Knights</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey12.jpg" 
+                            alt="blue-purple jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Red Horse</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center my-3">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey17.jpg" 
+                            alt="black-green-white jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Utah</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey14.jpg" 
+                            alt="black-gold jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Mabalasik</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey15.jpg" 
+                            alt="black-red jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>P-1 Warriors</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey16.jpg" 
+                            alt="black-purple jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Saints</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center my-3">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey18.jpg" 
+                            alt="black-green-white jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Bypass</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey19.jpg" 
+                            alt="black-gold jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Hoopers</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey20.jpg" 
+                            alt="black-red jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Troopers</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey21.jpg" 
+                            alt="black-purple jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Warshock</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center my-3">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey22.jpg" 
+                            alt="black-green-white jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Sports-M</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey23.jpg" 
+                            alt="black-gold jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Breakers</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey24.jpg" 
+                            alt="black-red jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Falcons</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey25.jpg" 
+                            alt="black-purple jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Kings</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center my-3">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey26.jpg" 
+                            alt="black-green-white jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Aces</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey27.jpg" 
+                            alt="black-gold jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Bladers</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey28.jpg" 
+                            alt="black-red jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>River-V</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/jersey30.jpg" 
+                            alt="black-purple jersey"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Conception</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱600.00 - ₱800.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 id="shirt-header">Shirts</h1>
+            <div class="row text-center my-3">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/shirt7.jpg" 
+                            alt="shirt"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Reunion Black</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱500.00 - ₱700.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/shirt8.jpg" 
+                            alt="shirt"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Corona Orange</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱500.00 - ₱700.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/shirt9.jpg" 
+                            alt="shirt"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Tau Gamma Phi W</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱500.00 - ₱700.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/shirt10.jpg" 
+                            alt="shirt"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Shopee Shirt</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱500.00 - ₱700.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center my-3">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/shirt11.jpg" 
+                            alt="shirt"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Gaadeym</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱500.00 - ₱700.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/shirt12.jpg" 
+                            alt="shirt"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>EVB</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱500.00 - ₱700.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/shirt13.jpg" 
+                            alt="shirt"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Makidlas</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱500.00 - ₱700.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <img 
+                            src="img/shirt14.jpg" 
+                            alt="shirt"
+                            class="card-img-top"/>
+                        <div class="card-body">
+                            <h3>Diyok</h3>
+                            <button class="btn card-btn">
+                            Add to Cart
+                            </button>
+                            <div class="card-footer text-dark">₱500.00 - ₱700.00</div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <h4>
+                <a class="back-to-top" href="#logo">-Back to top-<a>
+            <h4>                                                      
+        </div>
+        <footer>
+            <div class="container-footer">
+                <div class="row d-flex justify-content-center">
+                    <div class="footer-list col-lg-3">
+                        <ul>
+                            <li>Careers</li>
+                            <li>Blog</li>
+                            <li>About Designik</li>
+                            <li>Designik Device</li>
+                            <li>Designik Offers</li>
+                        </ul>
+                    </div>
+                    <div class="footer-list col-lg-3">
+                        <ul>
+                            <li>Accessibility</li>
+                            <li>Desktop & Mobile</li>
+                            <li>Cockie Policy</li>
+                            <li>Enterprice Solution</li>
+                        </ul>
+                    </div>
+                    <div class="footer-list col-lg-3">
+                        <ul>
+                            <li>Let Us Help You</li>
+                            <li>Trust, Safety & Security</li>
+                            <li>About Designik</li>
+                            <li>Pivacy Policy</li>
+                            <li>Feedback</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center text-light my-5 py-5">
+                    <p>Designik romnickbroso@gmail.com | 0948 644 1509</p>
+                    <span class="px-1">
+                        <img src="img/icon1.jpg" 
+                        alt="social media icons"
+                        class="footer-icon">
+                    </span>
+                    <span class="px-1">
+                        <img src="img/icon2.png" 
+                        alt="social media icons"
+                        class="footer-icon">
+                    </span>
+                    <span class="px-1">
+                        <img src="img/icon3.png" 
+                        alt="social media icons"
+                        class="footer-icon">
+                    </span>
+                    <span class="px-1">
+                        <img src="img/icon4.jpg" 
+                        alt="social media icons"
+                        class="footer-icon">
+                    </span>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
